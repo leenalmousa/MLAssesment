@@ -1,0 +1,12 @@
+model,CV MAE (all),CV std,CV MAE (clean),Test MAE (all),Test MAE (clean)
+HistGB | poisson,82.8,4.3,29.9,72.9,29.0
+HistGB | squared_error,82.9,4.1,29.9,73.0,29.1
+HistGB | gamma,82.9,4.3,29.9,73.1,29.2
+RandomForest,84.0,4.1,31.1,74.3,30.4
+ExtraTrees,84.2,4.2,31.3,74.4,30.5
+HistGB | absolute_error,84.7,4.1,31.8,75.1,31.2
+GradBoost | huber,89.7,4.4,36.9,80.5,36.7
+GradBoost | absolute_error,92.9,4.1,40.1,84.2,40.4
+HuberRegressor,123.8,4.1,71.4,114.9,71.5
+Ridge (L2),125.8,4.3,73.5,116.6,73.1
+Baseline (median rpm by equipment),236.6,3.0,185.8,227.5,185.5

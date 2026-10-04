@@ -1,0 +1,42 @@
+{
+    "model": "HistGB | absolute_error",
+    "optimization": "mae",
+    "validation_period": "Sep-Oct",
+    "validation_mae": 118.91751846464065,
+    "validation_mape": 5.35332899492197,
+    "validation_rmse": 635.554202852197,
+    "training_period": "Jan-Oct",
+    "n_training_samples": 48000,
+    "features": [
+        "distance",
+        "weight",
+        "day_of_week",
+        "month",
+        "equipment_Dry Van",
+        "equipment_Flatbed",
+        "equipment_Reefer"
+    ],
+    "parameters": {
+        "categorical_features": "from_dtype",
+        "early_stopping": "auto",
+        "interaction_cst": null,
+        "l2_regularization": 0.0,
+        "learning_rate": 0.06,
+        "loss": "absolute_error",
+        "max_bins": 255,
+        "max_depth": null,
+        "max_features": 1.0,
+        "max_iter": 400,
+        "max_leaf_nodes": 31,
+        "min_samples_leaf": 20,
+        "monotonic_cst": null,
+        "n_iter_no_change": 10,
+        "quantile": null,
+        "random_state": 42,
+        "scoring": "loss",
+        "tol": 1e-07,
+        "validation_fraction": 0.1,
+        "verbose": 0,
+        "warm_start": false
+    }
+}
