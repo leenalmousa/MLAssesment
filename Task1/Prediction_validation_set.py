@@ -19,6 +19,7 @@ FEATURES = [
     "market_index",
     "quote_signal",
     "day_of_week",
+    "day_of_month",
     "month",
     "equipment_Dry Van",
     "equipment_Flatbed",

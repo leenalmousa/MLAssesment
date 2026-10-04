@@ -65,7 +65,6 @@ def select_columns(df):
     return df[
         [
             'rpm',
-            'rpm_outlier',
             'day_of_week',
             'day_of_month',
             'equipment_Dry Van',
